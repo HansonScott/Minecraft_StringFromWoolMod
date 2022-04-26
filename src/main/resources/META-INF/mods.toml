@@ -39,7 +39,7 @@ This mod adds a new recipe for string.  Three wool in a horizontal line produces
 
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.stringtowoolmod]] #optional
+[[dependencies.stringfromwoolmod]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -51,7 +51,7 @@ This mod adds a new recipe for string.  Three wool in a horizontal line produces
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.stringtowoolmod]]
+[[dependencies.stringfromwoolmod]]
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
